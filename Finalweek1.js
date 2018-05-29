@@ -7,14 +7,13 @@ let idcard = function() {
     let adrs = document.getElementById("address").value;
     console.log(fullname, phone, age, adrs);
     document.getElementById("postFullName").innerHTML = fullname;
-    document.getElementById("pAge").innerHTML = age;
-    document.getElementById("pPhone").innerHTML = phone;
-    document.getElementById("pAddress").innerHTML = adrs;
+    document.getElementById("pAge").innerHTML = "Age: "+age;
+    document.getElementById("pPhone").innerHTML = "Phone Number: "+phone;
+    document.getElementById("pAddress").innerHTML = "Address: "+adrs;
 }
 
 document.getElementById("gen").addEventListener("click", function() {
     idcard();
-    
 } 
 );
 

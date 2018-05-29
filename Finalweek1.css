@@ -1,11 +1,26 @@
+body {
+    background-color: rgb(84, 179, 179); 
+}
+
+h1 {
+    padding-left: 480px;
+}
+#inputs {
+  padding-left: 550px;
+}
+
 #idcard {
     border-radius: 25px;
     border: round;
     border-style: inset;
     border-width: 7px;
     border-color: #323232;
-    background-color: rgb(206, 206, 206);
-    padding: 40px; 
-    margin: 30px;
+    background-color: rgb(255, 158, 214);
+    padding: 10px 20px 30px 20px; 
+    margin: 70px 440px 50px 400px;
     height: 16%;
+}
+
+#postFullName {
+   padding: 20px 0px 40px 200px;
 }
